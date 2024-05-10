@@ -1,4 +1,10 @@
-*{
+$primary-color: rgb(247, 236, 234);
+$secondary-color: rgb(245, 246, 236);
+$tertiary-color: rgb(156, 156, 156);
+$special-color: rgb(231, 231, 231);
+
+html,
+body {
     margin: 0;
     padding: 0;
     overflow-x: 0;

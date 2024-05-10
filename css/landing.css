@@ -1,0 +1,156 @@
+
+.header a{
+    text-decoration: none;
+    color: #393939;
+    font-size: 28px;
+    font-weight: 400;
+    display: inline-block;
+}
+#logo-name {
+    padding-top: 20px;
+    padding-right: 40px;
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+}
+#nav-item-shopnow {
+    color: #5BACC3;
+}
+#nav-item-about {
+    padding-right: 40px;
+}
+#nav-item-menu {
+    padding-right: 40px;
+}
+.header-nav {
+    background-color: #FFF0ED;
+    padding: 20px 40px 40px 40px;
+}
+.shopnow{
+    display: inline-flex;
+    background-color: #FFF0ED;
+    padding: 0px 20px 0px 20px;
+}
+.left {
+    padding-left: 5%;
+    padding-top: 12%;
+    margin-right: 25%;
+    width: 50vw;
+}
+ .right {
+     margin-right: 2%; 
+     width: 50vw;
+}    
+
+.shopnow-description {
+    width: 30vw;
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #393939;
+} 
+.full-screen-width {
+    width: 100vw;
+}
+.screen-height {
+    height: 100vh;
+}
+.shopnow-btn, .ourproducts-btn{
+    width: 180px;
+    padding: 20px;
+    background-color: #5BACC3;
+    color: white;
+    border: none;
+    font-size: 21px;
+    font-weight:400;
+}
+
+.products{
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-top: 5px;
+    width: 100vw;
+    font-size: 35px;
+    font-weight: 400;
+    color: #393939;
+}
+
+.product-title{
+    padding: 10px 0px 0px 0px;
+    font-weight: lighter;
+    color: #393939;
+    line-height: 0;
+} 
+
+.products-card {
+    display: inline-block;
+    width: 330px;
+    height: 440px;
+    padding: 20px;
+    margin: 20px ;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
+}
+
+.product-price {
+    color: #5BACC3;
+}
+.product-img {
+    height: 280px;
+}
+.products-div {
+    display: inline-block;
+    width: 100vw;
+    padding: 10px 0px 20px 0px;
+}
+
+.order-code{
+    height: 40vh;
+    background-color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+    padding: 40px 20px 0px 20px;
+    margin: 100px 7px 0px 7px;
+}
+
+.order-code-divider {
+    width: 90%;
+    background-color: #393939;
+    color: #FFF;
+    padding: 20px;
+    margin: 20px 20px;
+    font-size:  45px;
+    font-weight: 400;
+    
+}
+.discount-code{
+    color: #FFF;
+    font-size:  45px;
+    font-weight: 700;
+}
+
+.footer-section{
+    width: 100vw;
+    height: 30vh;
+    background-color: #FFF0ED;
+}
+.hour {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 0.5;
+}
+
+.footer-sec span {
+    font-weight: 400;
+}
+.footer-sec {
+    display: inline-block;
+    margin: 20px 20px 0px 40px;
+    font-size: 21px;
+    line-height: 1em;
+    padding: 30px 10px 0px 30px;
+    text-align: left;
+}
+
+
+

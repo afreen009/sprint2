@@ -1,0 +1,64 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --primary-color: #393939;
+    --secondary-color: #FFF; 
+    --highlight-color: #5BACC3;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    overflow-x: hidden; 
+}
+
+/* Text Styles */
+/* Heading 1 */
+h1 {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
+
+/* Heading 2 */
+h2 {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: var(--primary-color);
+}
+
+/* Heading 3 */
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+/* Nav Link */
+nav ul li a {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+/* Paragraph Text Regular */
+p {
+    
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+/* Paragraph Text Regular Italic */
+p em {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--primary-color);
+}
