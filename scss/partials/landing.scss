@@ -57,6 +57,7 @@
     font-weight: 400;
     color: #393939;
 
+
     &--div {
        width: 100vw;
        display: flex;
@@ -64,7 +65,10 @@
        background-color:#F7F7F7;
        padding: 10px 0px 20px 0px;
     }
-    
+    &--card img {
+        height: 280px;
+        padding: 20px;
+    }
     &--card{
        display: inline-block;
        width: 330px;
@@ -75,7 +79,12 @@
        border-radius: 10px;
        box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
     }
+    &--btn {
+        display: inline-flex;
+    }
 }
+
+
 
 // .products-div{
 //     // display: inline-block;
