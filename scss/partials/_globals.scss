@@ -32,10 +32,7 @@ p {
     
     box-sizing: border-box;
     display: flex;
-    font-size: 1rem;
     justify-content: center;
-    line-height: 1.75rem;
-    padding: .75rem 1.65rem;
     position: relative;
     text-align: center;
     position: relative;
@@ -48,15 +45,17 @@ p {
 .btn:focus{
     outline: 0;
 }
-
+.btn:active{
+    text-decoration: none;
+}
 .btn:after {
   content: '';
   position: absolute;
   border: 1px solid #000000;
   border-width: 2px;
   text-decoration: none;
-  bottom: 4px;
-  right: 4px;
+  bottom: 8px;
+  right: 8px;
   width: calc(100% - 1px);
   height: calc(100% - 1px);
 }
