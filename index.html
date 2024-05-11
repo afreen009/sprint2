@@ -9,33 +9,33 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__nav">
-            <ul><a href="./pages/menu.html">
+        <nav class="nav-bar">
+            <a href="./pages/menu.html" class="navbar-logo">
                 <img 
                 src="./assets/logos/coffee-beans-logo-and-footer.svg" 
                 alt="coffee-logo" />
-            </a></ul>
-            <ul><a class="header__nav logo-name" href="index.html">nitro</a></ul>
-            <ul><a class="header__nav nav-item-about" href="./pages/menu.html">ABOUT</a></ul>
-            <ul><a class="header__nav nav-item-menu" href="./pages/menu.html">MENU</a></ul>
-            <ul><a class="header__nav nav-item-shopnow" href='./pages/menu.html'>SHOP NOW</a></ul>
+            </a>
+            <a class="header__nav" href="index.html"><h2>nitro</h2></a>
+            <a class="nav-bar__link nav-bar__link--about" href="/">ABOUT</a>
+            <a class="nav-bar__link nav-bar__link--menu" href="">MENU</a>
+            <a class="nav-bar__link nav-bar__link--shopnow" href="#contact">SHOP NOW</a>
         </nav>
     </header>
     <main>
-        <article class="shopnow full-screen-width screen-height">
-            <section class="section-shopnow left" id="section-shopnow">
+        <article class="shopnow">
+            <section class="shopnow__section shopnow__section--left" id="section-shopnow">
                 <h1>Nitro Coffee</h1>
                 <p class="shopnow-description">
                     Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species
                 </p>
                 
                 <a href="./pages/menu.html">
-                    <button class="shopnow-btn">    
+                    <button class="btn">    
                         SHOP NOW
                     </button>
                 </a>
             </section>
-            <section class="section-shopnow right">
+            <section class="shopnow__section shopnow__section--right">
                 <a>
                     <img
                       src="./Assets/images/coffeebeans-hero.png"
@@ -43,24 +43,23 @@
                       class="coffee-logo"
                     />
                 </a>
-            </section>   
-        </article>
-
-        <section class="products full-screen-width screen-height">
-            <h2 class="product-title">Our Products</h2>
-            <div class="products-div">
-            <section class="products-card">
+            </section> 
+        </article>    
+        <section class="products__section">
+            <h2 class="product__section--title">Our Products</h2>
+        <div class="products__section--div">
+            <section class="products__section--card">
                 <a>
                     <img
                       src="./Assets/images/coffeebeans.png"
                       alt="Coffee beans"
                       class="product-img coffeebeans"
                     />
-                </a>
+                </a>    
                 <p>Coffee Beans</p>
                 <p class="product-price">$19</p>
             </section>
-            <section class="products-card">
+            <section class="products__section--card">
                 <a>
                     <img
                       src="./Assets/images/coldbrew.png"
@@ -71,7 +70,7 @@
                 <p>Cold Brew</p>
                 <p class="product-price">$5</p>
             </section>
-            <section class="products-card">
+            <section class="products__section--card">
                 <a>
                     <img
                       src="./Assets/images/inhousebrew.png"
@@ -85,19 +84,34 @@
         </div>
         <div>
             <a href="./pages/menu.html">
-                <button class="ourproducts-btn" >    
+                <button class="btn" >    
                     VIEW ALL
                 </button>
             </a>
         </div>
-        
         </section>
 
-        <section class="order-code full-screen-width">
-            <div class="order-code-divider">
-                <a>Get 20% off your first order with code: <span class="discount-code">FirstNitro</span> </a>
+        <article class="ordercode">
+            <section class="ordercode__section">
+            <div class="ordercode__section--left">
+                <h2>
+                    We're Different
+                </h2>
+                <p>
+                    We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.
+                </p>
+                <img class="ordercode__section--img" src="./assets/images/planting.svg" alt="planting image">
+                <img class="ordercode__section--img" src="./assets/images/coffee-beans.svg" alt="coffee-beans image">
+                <img class="ordercode__section--img" src="./assets/images/coffee-cup.svg" alt="coffee-cup svg">
             </div>
+            <!-- <div class="ordercode__section--right"> -->
+                <img class="ordercode__section--right" src="./assets/images/coldbrewbackground.png" alt="coldbrew background image">
+            <!-- </div> -->
+            <!-- <div class="ordercode__divider">
+                <a>Get 20% off your first order with code: <span class="rdercode__divider--discount">FirstNitro</span> </a>
+            </div> -->
         </section>
+        </article>
 
         <footer class = 'footer-section'>
             <section class="footer-sec address">

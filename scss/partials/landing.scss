@@ -1,23 +1,103 @@
 @import "./globals";
-@use './globals' as *;
+
+.nav-bar {
+    background-color: #FFF0ED;
+    &__link {
+        text-decoration: none;
+        // padding: 15px 15px;
+
+        &--about, &--menu {
+            padding: 10px;
+            color: #393939;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        &--shopnow{
+            padding: 10px;
+            color: #5BACC3;
+            font-size: 20px;
+            font-weight: 400;
+        }
+      }
+} 
 
 .header__nav {
-    width: 100vw;
-    // background-color: $primary-color;
+    text-decoration: none;
+    color: #393939;
+    display: inline-flex;
 }
+.shopnow {
+    height: 75vh;
+    width: 100vw;
+    background-color: #FFF0ED;
+    display: inline-flex;
+    justify-content: space-between;
+     
+    &__section{
+        &--left {
+            padding-left: 7%;
+            padding-top: 10%;
+            margin-right: 25%;
+            width: 50vw;
+        }
+        &--right {
+            margin-right: 2%; 
+            width: 50vw;
+        }
+    }
+}
+.products__section {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 35px;
+    font-weight: 400;
+    color: #393939;
+
+    &--div {
+       width: 100vw;
+       display: flex;
+       justify-content: center;
+       background-color:#F7F7F7;
+       padding: 10px 0px 20px 0px;
+    }
+    
+    &--card{
+       display: inline-block;
+       width: 330px;
+       height: 440px;
+       padding: 20px;
+       margin: 20px ;
+       background-color: #FFF;
+       border-radius: 10px;
+       box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
+    }
+}
+
+// .products-div{
+//     // display: inline-block;
+//     width: 100vw;
+//     display: flex;
+//     justify-content: center;
+//     background-color:#5BACC3;
+//     padding: 10px 0px 20px 0px;
+// }
+
 // .header a{
-//     text-decoration: none;
-//     color: #393939;
-//     font-size: 28px;
-//     font-weight: 400;
+    // text-decoration: none;
+    // color: #393939;
+    // font-size: 28px;
+    // font-weight: 400;
 //     display: inline-block;
 // }
 // #logo-name {
 //     padding-top: 20px;
 //     padding-right: 40px;
 //     font-family: 'Open Sans Light', sans-serif;
-//     font-size: 60px;
-//     font-weight: 300;
+    
 // }
 // #nav-item-shopnow {
 //     color: #5BACC3;
@@ -48,18 +128,18 @@
 //      width: 50vw;
 // }    
 
-// .shopnow-description {
-//     width: 30vw;
-//     font-size: 18px;
-//     padding-bottom: 20px;
-//     color: #393939;
-// } 
-// .full-screen-width {
-//     width: 100vw;
-// }
-// .screen-height {
-//     height: 100vh;
-// }
+.shopnow-description {
+    width: 30vw;
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #393939;
+} 
+.full-screen-width {
+    width: 100vw;
+}
+.screen-height {
+    height: 100vh;
+}
 // .shopnow-btn, .ourproducts-btn{
 //     width: 180px;
 //     padding: 20px;
@@ -110,14 +190,51 @@
 //     padding: 10px 0px 20px 0px;
 // }
 
-// .order-code{
-//     height: 40vh;
-//     background-color: #FFF;
-//     text-align: center;
-//     vertical-align: middle;
-//     padding: 40px 20px 0px 20px;
-//     margin: 100px 7px 0px 7px;
-// }
+.ordercode{
+    height: 40vh;
+    background-color: #FFF;
+    text-align: center;
+    padding: 40px 20px 0px 20px;
+    margin: 100px 7px 0px 7px;
+    width: 100vw;
+    &__section {
+        display: inline-flex;
+        &--left{
+            text-align: left;
+            width: 50vw;
+        }
+        &--right{
+            // text-align: right; 
+            // height: 40vh;
+            width: 400px;
+            padding: 20px;
+            border-width: 5px;
+            border-color:#5BACC3;
+            offset-position: 20px;
+// Position/offset increments: 20px;
+        }
+        &--img {
+            width: 50px;
+        }
+    }
+    &__divider {
+        width: 90%;
+        background-color: #393939;
+        color: #FFF;
+        padding: 20px;
+        margin: 20px 20px;
+        font-size:  45px;
+        font-weight: 400;
+
+        &--code {
+            color: #FFF;
+            font-size:  45px;
+            font-weight: 700;
+        }
+    }
+
+
+}
 
 // .order-code-divider {
 //     width: 90%;

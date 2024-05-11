@@ -1,11 +1,65 @@
-$primary-color: rgb(247, 236, 234);
-$secondary-color: rgb(245, 246, 236);
-$tertiary-color: rgb(156, 156, 156);
-$special-color: rgb(231, 231, 231);
+
 
 html,
 body {
     margin: 0;
     padding: 0;
     overflow-x: 0;
+    font-family: 'Open Sans';
+}
+
+h1,
+h2{
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 0;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn {
+    border-style: none;
+    width: 180px;  
+    background-color: #5BACC3;
+    color: White;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 21px;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  right: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.btn:hover:after{
+    bottom: 2px;
+  left: 2px;
 }
